@@ -1,8 +1,8 @@
 def compose(f, g):
-    def composed_function(x):
+    def composed_func(x):
         return f(g(x))
 
-    return composed_function
+    return composed_func
 
 
 def double(x):
@@ -13,5 +13,5 @@ def square(x):
     return x ** 2
 
 
-double_then_square = compose(square, double)
-print(double_then_square(3))
+double_square = compose(square, double)
+print(double_square(3))

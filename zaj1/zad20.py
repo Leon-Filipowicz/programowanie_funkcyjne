@@ -1,10 +1,10 @@
 def analyze_data(data):
     if isinstance(data, list):
         print("To jest lista.")
-        print("Ilość elementów:", len(data))
+        print("Ile elementow:", len(data))
     elif isinstance(data, tuple):
         print("To jest krotka.")
-        print("Ilość elementów:", len(data))
+        print("Iloe elementow:", len(data))
     else:
         print("To nie jest ani lista, ani krotka.")
 

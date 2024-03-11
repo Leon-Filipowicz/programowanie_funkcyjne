@@ -3,6 +3,6 @@ def tuple_example(t):
     return new_tuple
 
 
-original_tuple = (1, 2, 3, 4, 5)
-result_tuple = tuple_example(original_tuple)
-print(result_tuple)
+tuple1 = (1, 2, 3, 4, 5)
+last_tuple = tuple_example(tuple1)
+print(last_tuple)

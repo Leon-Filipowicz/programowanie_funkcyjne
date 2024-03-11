@@ -1,8 +1,8 @@
-def calculate_factorial(n):
+def calc_fact(n):
     if n == 0:
         return 1
     else:
-        return n * calculate_factorial(n - 1)
+        return n * calc_fact(n - 1)
 
 
-print(calculate_factorial(5))
+print(calc_fact(5))
